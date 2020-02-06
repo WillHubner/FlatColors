@@ -20,54 +20,63 @@ object Form3: TForm3
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 0
-    ExplicitHeight = 711
     object Panel1: TPanel
       Left = 0
       Top = 0
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 10272000
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 129
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
+      ExplicitLeft = -6
+      ExplicitTop = -6
     end
     object Panel2: TPanel
       Left = 0
       Top = 150
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 8757504
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 225
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel3: TPanel
       Left = 0
       Top = 300
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 2806004
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 312
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel4: TPanel
       Left = 0
       Top = 450
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 40437
       ParentBackground = False
       TabOrder = 3
-      ExplicitTop = 408
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
   end
   object Panel22: TPanel
@@ -78,55 +87,61 @@ object Form3: TForm3
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 1
-    ExplicitLeft = 8
-    ExplicitHeight = 711
     object Panel9: TPanel
       Left = 0
       Top = 0
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 14587692
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 200
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel10: TPanel
       Left = 0
       Top = 150
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 13145936
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 296
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel11: TPanel
       Left = 0
       Top = 300
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 6254317
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 383
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel12: TPanel
       Left = 0
       Top = 450
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 5398478
       ParentBackground = False
       TabOrder = 3
-      ExplicitTop = 479
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
   end
   object Panel23: TPanel
@@ -137,55 +152,63 @@ object Form3: TForm3
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 2
-    ExplicitTop = -9
-    ExplicitHeight = 711
     object Panel13: TPanel
       Left = 0
       Top = 0
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 13007024
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 160
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel14: TPanel
       Left = 0
       Top = 150
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 12543653
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 256
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel15: TPanel
       Left = 0
       Top = 300
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 15855852
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 343
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel16: TPanel
       Left = 0
       Top = 450
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 13091773
       ParentBackground = False
       TabOrder = 3
-      ExplicitTop = 439
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
+      ExplicitLeft = 6
+      ExplicitTop = 456
     end
   end
   object Panel24: TPanel
@@ -196,56 +219,65 @@ object Form3: TForm3
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 3
-    ExplicitLeft = 832
-    ExplicitTop = 8
-    ExplicitHeight = 711
     object Panel17: TPanel
       Left = 0
       Top = 0
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 6244659
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 136
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
+      ExplicitLeft = 6
+      ExplicitTop = -6
     end
     object Panel18: TPanel
       Left = 0
       Top = 150
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 7627862
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 232
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel19: TPanel
       Left = 0
       Top = 300
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 12040106
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 319
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel20: TPanel
       Left = 0
       Top = 450
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 9276543
       ParentBackground = False
       TabOrder = 3
-      ExplicitTop = 415
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
+      ExplicitLeft = 6
+      ExplicitTop = 456
     end
   end
   object Panel25: TPanel
@@ -256,56 +288,63 @@ object Form3: TForm3
     Align = alLeft
     BevelOuter = bvNone
     TabOrder = 4
-    ExplicitLeft = 832
-    ExplicitTop = 8
-    ExplicitHeight = 711
     object Panel5: TPanel
       Left = 0
       Top = 0
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 9164624
       ParentBackground = False
       TabOrder = 0
-      ExplicitTop = 176
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
+      ExplicitLeft = 6
+      ExplicitTop = -6
     end
     object Panel6: TPanel
       Left = 0
       Top = 150
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 8240973
       ParentBackground = False
       TabOrder = 1
-      ExplicitTop = 272
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel7: TPanel
       Left = 0
       Top = 300
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 294632
       ParentBackground = False
       TabOrder = 2
-      ExplicitTop = 359
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
     object Panel8: TPanel
       Left = 0
       Top = 450
       Width = 200
       Height = 150
+      Cursor = crHandPoint
       Align = alTop
       BevelOuter = bvNone
       Color = 21717
       ParentBackground = False
       TabOrder = 3
-      ExplicitTop = 455
+      OnClick = Panel1Click
+      OnMouseEnter = Panel1MouseEnter
     end
   end
 end

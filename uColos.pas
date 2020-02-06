@@ -4,7 +4,7 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.ExtCtrls, clipbrd;
 
 type
   TForm3 = class(TForm)
@@ -33,6 +33,8 @@ type
     Panel19: TPanel;
     Panel20: TPanel;
     Panel25: TPanel;
+    procedure Panel1MouseEnter(Sender: TObject);
+    procedure Panel1Click(Sender: TObject);
   private
     { Private declarations }
   public
@@ -45,5 +47,15 @@ var
 implementation
 
 {$R *.dfm}
+
+procedure TForm3.Panel1Click(Sender: TObject);
+begin
+  Clipboard.AsText := ColorToString(TPanel(Sender).Color);
+end;
+
+procedure TForm3.Panel1MouseEnter(Sender: TObject);
+begin
+  Self.Caption := ColorToString(TPanel(Sender).Color);
+end;
 
 end.
